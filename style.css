@@ -5,6 +5,12 @@ body {
 header {
     position: fixed;
     top: 0;
+    padding: 10px;
+    z-index: 1;
+    background-color: green;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 500px;
 }
 
 img {
@@ -16,6 +22,8 @@ img {
 main {
   position: relative;
   top: 50px;
+  background-color: greenyellow;
+  text-align: center;
 }
 footer {
     position: relative;
@@ -29,10 +37,22 @@ nav {
 .lado-esquerdo {
     width: 300px;
     display: inline-block;
+    border: 1px solid blue;
+    
 }
 .lista{
     display: inline-block;
+    border: 1px solid blue;
+    vertical-align: top;
 }
 .lado-direito {
     display: inline-block;
+    border: 1px solid blue;
+    vertical-align: top;
+}
+
+aside {
+    display: inline-block;
+    background-color: grey;
+    width: 150px;
 }
