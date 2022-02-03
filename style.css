@@ -38,7 +38,7 @@ nav {
     width: 300px;
     display: inline-block;
     border: 1px solid blue;
-    
+    vertical-align: top;
 }
 .lista{
     display: inline-block;
@@ -55,4 +55,10 @@ aside {
     display: inline-block;
     background-color: grey;
     width: 150px;
+    line-height: 35px;
+    font-size: 20px;
+}
+table {
+    position: relative;
+    top: 50px;
 }
