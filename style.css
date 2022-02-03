@@ -62,3 +62,10 @@ table {
     position: relative;
     top: 50px;
 }
+table tr {
+    background-color: hotpink;
+}
+table td {
+    background-color: indigo;
+    color: ivory;
+}
