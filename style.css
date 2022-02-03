@@ -1,16 +1,23 @@
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
 }
+
 header {
     position: fixed;
     top: 0px;
 }
+
 img {
     width: 300px;
     position: relative;
     top: 50px;
 }
+
 article {
+  position: relative;
+  top: 50px;
+}
+footer {
     position: relative;
-    top: 50px
+    top: 50px;
 }
